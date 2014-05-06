@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{site.description}}">
+    <meta name="author" content="{{site.author}}">
+    
+    <title>{{site.title}}</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/blog.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <style id="holderjs-style" type="text/css">
+  .blog-title {
+    font-family: fantasy; 
+    padding: 0 0 0 0;
+    margin-top: 0px;
+  }
+  .blog-description {
+    color: #DDDDDD;
+  }
+  .lead {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .blog-masthead{
+    margin-bottom: 20px;
+  }
+  </style>
+  </head>
+
+  <body>
+
+
+    <div class="container blog-header">
+        <h1 class="blog-title">{{site.name}}</h1>
+    </div>
+    <div class="blog-masthead"><div class="container"><p class="lead blog-description">{{site.description}}</p></div></div>
+    <div class="container">
+<!--
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          <a class="blog-nav-item active" href="#">Home</a>
+          <a class="blog-nav-item" href="#">New features</a>
+          <a class="blog-nav-item" href="#">Press</a>
+          <a class="blog-nav-item" href="#">New hires</a>
+          <a class="blog-nav-item" href="#">About</a>
+        </nav>
+      </div>
+    </div>
+    -->
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+          
+{{ content }}
+
+<!--          <ul class="pager">
+            <li><a href="#">Previous</a></li>
+            <li><a href="#">Next</a></li>
+          </ul>
+-->
+        </div><!-- /.blog-main -->
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+            <h4>About</h4>
+            <p>
+            This is not another blog about new stuff in the tech industry. 
+            While blogging about all the new things I learn could be a good way to succeed as a tech worker,
+            I decided to measure my success <a href="http://www.ted.com/talks/david_brooks_should_you_live_for_your_resume_or_your_eulogy">differently</a>. 
+            To stay current in the <em>fast paced</em> tech industry, all one's spare time goes into creating toy projects. 
+            Toy projects that <a href="http://www.infoq.com/presentations/dependency-framework">do the same things</a> but are ever more <a href="http://www.infoq.com/presentations/Simple-Made-Easy">complected</a>.
+            Therefore, I decided to try to do anything consequential. 
+            This blog describes my attempts to outpace the industry in solving some <em>real problems</em>, which is my new measure of success.
+        
+            <div style="margin-left:auto; width:70%;">
+            The author,<br/><a href="http://plg.uwaterloo.ca/~yaboulna">Younes Abouelnagah</a>
+            <br/>
+<a href="http://ca.linkedin.com/in/younosnaga/"><img src="/images/linkedin.jpg" height="20px" width="20px" alt="LinkedIn of Younes Abouelnagah"></a>
+<a href="https://plus.google.com/110367479775392810217?rel=author"><img src="/images/googleplus.jpg" height="20px" width="20px" alt="Google+ of Younes Abouelnagah"></a></div>
+</p>
+          </div>
+<!--          <div class="sidebar-module">
+            <h4>Archives</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">January 2014</a></li>
+              <li><a href="#">December 2013</a></li>
+              <li><a href="#">November 2013</a></li>
+              <li><a href="#">October 2013</a></li>
+              <li><a href="#">September 2013</a></li>
+              <li><a href="#">August 2013</a></li>
+              <li><a href="#">July 2013</a></li>
+              <li><a href="#">June 2013</a></li>
+              <li><a href="#">May 2013</a></li>
+              <li><a href="#">April 2013</a></li>
+              <li><a href="#">March 2013</a></li>
+              <li><a href="#">February 2013</a></li>
+            </ol>
+          </div> -->
+         
+        </div><!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <div class="blog-footer">
+      <p>Styling based on blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/docs.min.js"></script>
+  
+
+</body></html>

@@ -1,0 +1,8 @@
+url:         "http://timeleft--.github.io/"
+name:        "while (timeleft--) { improve(); }"
+title:       "timeleft--: A blog by Younes Abouelnagah"
+description: "A mortal human's attempt to succeed as a tech worker"
+
+paginate:    10
+
+permalink:   pretty
