@@ -13,3 +13,8 @@ Both incorrect actions (errors of commission) and hint requests (errors of omiss
 
 Video about KLI(Knowledge Components, Learning Activity, Instruction), Algebra as a foreign language: http://pact.cs.cmu.edu/koedinger/Koedinger10_WMV%20V9.wmv --> Challenge vs Assist dichotomy 
 
+### Spark
+    RDD ( resilient distributed datasets)  An RDD is represented as a Scala object and can be created from a file; as a parallelized slice (spread across nodes); as a transformation of another RDD; and finally through changing the persistence of an existing RDD, such as requesting that it be cached in memory.
+    Runs on top of Mesos.
+    Application = Driver = Actions or Transformation 
+    

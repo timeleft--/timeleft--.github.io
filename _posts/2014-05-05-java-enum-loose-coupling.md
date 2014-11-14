@@ -17,7 +17,7 @@ Here is how I do it:
 
 1. Create an abstract class with a generic argument that must be an enum. For now, let it contain only a final member which is the enum constant value it represents/wraps. Code: 
 
-        public abstract class EnumExtension&lt;E extends Enum<E>> {
+        public abstract class EnumExtension<E extends Enum<E>> {
             protected final Enum<E> original;
         }
 
@@ -102,7 +102,4 @@ Here is how I do it:
  
 ###Conclusion
 In this post I have blogged about a method I use for wrapping enums into what would seem to be an enum, as far as coding is concerned. This method gives the ability to use enum constants defined by dependencies, while keeping own code loosely coupled from it. This might look like a glorified wrapper, specially that I call it an EnumExtension, but there is more to it than just being a wrapper. Granted, as it is right now it is just a wrapper, but in many cases only wrapping an enum to provide loose coupling is not enough. What happens when an enum defines so many constant values and you use only a subset of those values in your code? Is there a  way to make sure an enum constant value that your code doesn't support cannot be instantiated? I will write about how I do this in the next blog post. Please give me a nudge if you want me to write that post soon.
-
-###Final remarks
-I am sorry if I didn't get to providing some way to post comments yet. Your feedback is welcome through direct messages on my [LinkedIn](http://ca.linkedin.com/in/younosnaga/) or [Google+](https://plus.google.com/110367479775392810217?rel=author).
 
