@@ -1,3 +1,5 @@
 # timeleft--.github.io
 while(timeleft--) improve();
-Some Readme!
+
+
+That's my blog.. read it at timelef--.github.io
